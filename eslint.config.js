@@ -12,5 +12,4 @@ export default defineConfig([
       'comma-dangle': ['error', 'always-multiline'],
     },
   },
-  globalIgnores(['.vercel/']),
 ])
