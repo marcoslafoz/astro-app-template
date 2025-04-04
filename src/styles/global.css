@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import './fonts.css';
+
+@theme {
+  --font-primary: "Inter-Variable";
+
+  --color-theme-primary: '#000';
+  --color-theme-secondary: '#fff';
+
+  --font-weight-semibold: 500;
+  --font-weight-bold: 600;
+}

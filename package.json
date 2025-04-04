@@ -1,0 +1,29 @@
+{
+  "name": "astro-app",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint --ext .astro .",
+    "lint:fix": "eslint --ext .astro --fix .",
+    "pretty:all": "prettier --check \"src/**/*{.js,.jsx,.ts,.tsx,.astro}\" || prettier --write \"src/**/*{.js,.jsx,.ts,.tsx,.astro}\""
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.17",
+    "astro": "^5.5.5",
+    "tailwindcss": "^4.0.17"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "esbuild-loader": "^4.3.0",
+    "eslint": "^9.23.0",
+    "eslint-plugin-astro": "1.3.1",
+    "prettier": "3.5.3",
+    "prettier-plugin-astro": "0.14.1",
+    "prettier-plugin-tailwindcss": "0.6.11"
+  }
+}
